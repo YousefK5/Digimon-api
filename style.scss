@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(215, 234, 250);
+    nav ul {
+        list-style: none;
+        display: flex;
+        li a{
+            text-decoration: none;
+            font-size: 20px;
+            margin: 20px;
+            padding: 10px;
+            color: blueviolet;
+        }
+        a:hover {
+            color: rgb(43, 0, 124);
+        }
+    }
+}
+
+main {
+    min-height: 60vh;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(215, 234, 250);
+    color: blueviolet;
+}
